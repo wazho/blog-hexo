@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			// Clone from https://github.com/grass0916/blog
+			"path": "../blog"
+		},
+		{
+			// This project.
+			"path": "."
+		}
+	],
+	"settings": {}
+}

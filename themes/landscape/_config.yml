@@ -28,10 +28,10 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-48091390-2
 gauges_analytics:
 favicon: /favicon.png
 twitter:
 google_plus:
-fb_admins:
+fb_admins: grass0916
 fb_app_id:
