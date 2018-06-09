@@ -78,7 +78,10 @@ theme: cactus-refined
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:grass0916/blog.git
+  branch: [master]
+  # message: [message]
 
 ## Plugin: sitemap
 sitemap:
