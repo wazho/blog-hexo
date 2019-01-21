@@ -13,7 +13,7 @@ timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.salmon.tw
+url: https://blog.salmon.tw
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,7 +79,7 @@ theme: cactus-refined
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:grass0916/blog.git
+  repo: git@github.com:wazho/blog.git
   branch: [master]
   # message: [message]
 
