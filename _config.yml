@@ -54,15 +54,19 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
   auto_detect: false
-  tab_replace: ''
+  line_number: false
+  line_threshold: 0
+  tab_replace: ""
+  exclude_languages:
+    - example
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  line_threshold: 0
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -105,7 +109,19 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ZenMind
+theme: cactus
+theme_config:
+  colorscheme: dark
+  nav:
+    home: /
+    about: https://salmon.tw
+  social_links:
+    -
+      icon: github
+      link: https://github.com/wazho
+  copyright:
+    start_year: 2012
+    end_year:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
