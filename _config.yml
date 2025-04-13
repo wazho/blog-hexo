@@ -41,7 +41,15 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  gfm: true
+  breaks: false
+  pedantic: false
+  smartLists: true
+  smartypants: false
+  headerIds: true
+  mangle: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
